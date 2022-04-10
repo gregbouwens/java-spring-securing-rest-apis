@@ -18,7 +18,6 @@
 		<java.version>1.8</java.version>
 		<spring-security.version>5.4.0-M1</spring-security.version>
 		<hibernate.version>5.4.13.Final</hibernate.version>
-
 		<start-class>io.jzheaux.springsecurity.resolutions.ResolutionsApplication</start-class>
 	</properties>
 
@@ -44,7 +43,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webflux</artifactId>
@@ -53,7 +51,6 @@
 			<groupId>io.projectreactor.netty</groupId>
 			<artifactId>reactor-netty</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-data</artifactId>
@@ -62,7 +59,6 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-oauth2-jose</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -78,7 +74,6 @@
 			<artifactId>json-smart</artifactId>
 			<version>2.3</version>
 		</dependency>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -97,7 +92,6 @@
 			<artifactId>mockwebserver</artifactId>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -106,7 +100,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<repositories>
 		<repository>
 			<id>milestones</id>
